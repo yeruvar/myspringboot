@@ -8,11 +8,11 @@ This application is a "microservice" spring boot application which provides rest
  To run the application, simply run
  
  		mvn spring-boot:run
- 		
+ 
  To test the application, simple run
  		mvn test
- 		
- To build the application, simply run
+
+To build the application, simply run
  		mvn clean install
  
  This application provides the following apis's.
@@ -65,13 +65,13 @@ This application is a "microservice" spring boot application which provides rest
  		
   6. Rest end points to fetch data from external system
   		
-  		Rest api: 		http://localhost:8080/data
- 		Method:			GET  -- Searches for all data
- 		Curl Command: 	curl -X GET http://localhost:8080/data
+  		Rest api:		http://localhost:8080/data
+  		Method:			GET  -- Searches for all data
+ 		Curl Command:	curl -X GET http://localhost:8080/data
  		
- 		Rest api: 		http://localhost:8080/data/{id}
+ 		Rest api:		http://localhost:8080/data/{id}
  		Method:			GET  -- Search for data of given id
- 		Curl Command: 	curl -X GET http://localhost:8080/data/1
+ 		Curl Command:	curl -X GET http://localhost:8080/data/1
  		
  		
  
